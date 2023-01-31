@@ -35,9 +35,9 @@ urlpatterns = [
     path("rest-auth/registration/", include("rest_auth.registration.urls")),
 ]
 
-admin.site.site_header = "komatsu-kpi-dashboard"
-admin.site.site_title = "komatsu-kpi-dashboard Admin Portal"
-admin.site.index_title = "komatsu-kpi-dashboard Admin"
+admin.site.site_header = "test-delete-this-app"
+admin.site.site_title = "test-delete-this-app Admin Portal"
+admin.site.index_title = "test-delete-this-app Admin"
 
 # swagger
 api_info = openapi.Info(
